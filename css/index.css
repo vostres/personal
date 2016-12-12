@@ -1,3 +1,57 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.white-text {
+    color: blue;
+}
+
+.brand {
+    font-family: Impact, sans-serif;
+    font-size: 40px;
+    border-color: #F5A9F2;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.logo {
+    width: 40px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.name {
+    font-size: 48px;
+}
+
+.eugeniavostres {
+    border-radius: 50%;
+    width: 400px;
+    border-style: hidden;
+}
+
+.yellow-thin-border {
+    border-color: #FFFF00;
+    border-width: 1px;
+    border-style: solid;
+}
+
+p {
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 58px;
+}
+
+h3 {
+    font-size: 27px;
+}
+.small-text {
+    font-size: 17px;
+}
+.background {
+    width: 1280px;
 }
