@@ -1,9 +1,11 @@
 * {
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .white-text {
-    color: blue;
+    color: white;
 }
 
 .brand {
@@ -38,6 +40,10 @@
     border-style: solid;
 }
 
+.small-text {
+    font-size: 17px;
+}
+
 p {
     font-size: 15px;
 }
@@ -49,9 +55,52 @@ h2 {
 h3 {
     font-size: 27px;
 }
-.small-text {
-    font-size: 17px;
+
+header {
+    background-image: url(../img/background1.jpg);
 }
-.background {
-    width: 1280px;
+
+.block-2 {
+    background: #F2F2F2;
 }
+
+.about {
+    background-image: url(../img/background2.jpg);
+}
+
+.block-3 {
+    background: #848484;
+}
+
+.blog {
+    background-image: url(../img/background3.jpg);
+}
+
+.block-4-outer {
+    padding: 25px;
+    background: #F2F2F2;
+}
+
+.block-4-inner {
+    background: #848484;
+}
+
+figure {
+    display: inline-block;
+}
+
+.contact {
+    background-image: url(../img/background4.jpg);
+}
+
+.block-5-outer {
+    padding: 40px;
+    background: #848484;
+}
+
+.block-5-inner {
+    background: #F2F2F2;
+}
+ footer {
+     background: #424242;
+ }
