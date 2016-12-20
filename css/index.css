@@ -21,16 +21,44 @@ header {
     font-family: Impact, sans-serif;
     font-size: 40px;
     position: relative;
-    top: 30px;
-    left: 30px;
-    border-color: #F5A9F2;
+    top: 40px;
+    left: 40px;
+    border-color: #B40486;
     border-width: 1px;
     border-style: solid;
     text-align: center;
-    padding: 3px;
+    padding: 5px;
 }
 
-.logo {
+.about-1 {
+    position: relative;
+    top: 30px;
+    left: 500px;
+}
+
+.blog-1 {
+    position: relative;
+    top: 30px;
+    left: 530px;
+}
+
+.contact-1 {
+    position: relative;
+    top: 30px;
+    left: 565px;
+}
+
+.facebook-1 {
+    position: relative;
+    top: 45px;
+    left: 720px;
+    width: 40px;
+}
+
+.linkedin-1 {
+    position: relative;
+    top: 45px;
+    left: 750px;
     width: 40px;
 }
 
@@ -41,21 +69,33 @@ header {
 h4 {
     position: relative;
     top: 200px;
-    left: 525px;
+    text-align: center;
     font-size: 40px;
 }
 
 .big-heading {
     position: relative;
     top: 250px;
-    left: 150px;
+    text-align: center;
+}
+
+.hello {
+    position: relative;
+    top: 300px;
+    left: 560px;
+    font-size: 35px;
+    padding: 10px;
 }
 
 .block-2 {
     background: #F2F2F2;
     height: 750px;
-    padding: 40px;
     align-items: center;
+}
+
+.content-2 {
+    position: relative;
+    left: 400px;
 }
 
 .name {
@@ -150,11 +190,11 @@ button {
 }
 
 .yellow-thin-border {
-    border-color: #FFFF00;
-    border-width: 2px;
+    border-color: #AEB404;
+    border-width: 1px;
     border-style: solid;
-    padding-bottom: 4px;
-    padding-top: 4px;
+    padding-bottom: 7px;
+    padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
     text-align: center;
