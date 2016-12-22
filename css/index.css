@@ -5,7 +5,7 @@
 }
 
 body {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     font-family: 'Roboto Condensed', sans-serif;
     padding: 0;
@@ -22,7 +22,7 @@ header {
     font-size: 40px;
     position: relative;
     top: 40px;
-    left: 40px;
+    left: 2%;
     border-color: #B40486;
     border-width: 1px;
     border-style: solid;
@@ -33,32 +33,32 @@ header {
 .about-1 {
     position: relative;
     top: 30px;
-    left: 500px;
+    left: 30%;
 }
 
 .blog-1 {
     position: relative;
     top: 30px;
-    left: 530px;
+    left: 35%;
 }
 
 .contact-1 {
     position: relative;
     top: 30px;
-    left: 565px;
+    left: 40%;
 }
 
 .facebook-1 {
     position: relative;
     top: 45px;
-    left: 720px;
+    left: 68%;
     width: 40px;
 }
 
 .linkedin-1 {
     position: relative;
     top: 45px;
-    left: 750px;
+    left: 70%;
     width: 40px;
 }
 
@@ -82,9 +82,8 @@ h4 {
 .hello {
     position: relative;
     top: 300px;
-    left: 560px;
+    left: 46%;
     font-size: 35px;
-    padding: 10px;
 }
 
 .block-2 {
@@ -95,7 +94,9 @@ h4 {
 
 .content-2 {
     position: relative;
-    left: 400px;
+    top: 50px;
+    left: 35%;
+    display: inline-block;
 }
 
 .name {
@@ -110,10 +111,6 @@ h4 {
     border-style: hidden;
 }
 
-.content-2 {
-    display: inline-block;
-}
-
 .text-block-2 {
     width: 400px;
 }
@@ -126,6 +123,26 @@ h4 {
 .block-3 {
     background: #848484;
     height: 580px;
+}
+
+.education {
+    display: inline-block;
+}
+
+.job-experience {
+    display: inline-block;
+}
+
+.publications {
+    display: inline-block;
+}
+
+.volunteering {
+    display: inline-block;
+}
+
+.languages {
+    display: inline-block;
 }
 
 .blog {
@@ -183,6 +200,46 @@ button {
 .outer-footer {
     background: #F2F2F2;
     height: 230px;
+}
+
+.brand {
+    font-family: Impact, sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    left: 2%;
+    border-color: #B40486;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    padding: 5px;
+}
+
+.about-2 {
+    position: relative;
+    left: 30%;
+}
+
+.blog-2 {
+    position: relative;
+    left: 35%;
+}
+
+.contact-2 {
+    position: relative;
+    left: 40%;
+}
+
+.facebook-2 {
+    position: relative;
+    left: 68%;
+    width: 40px;
+}
+
+.linkedin-2 {
+    position: relative;
+    left: 70%;
+    width: 40px;
 }
 
 .white-text {
