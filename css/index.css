@@ -228,6 +228,27 @@ figcaption {
     left: 35%;
     justify-content: flex-start;
     display: flex;
+    padding: 50px;
+}
+.your-name {
+    position: relative;
+    left: 20%;
+}
+.your-email {
+    position: relative;
+    left: 20%;
+}
+.topic {
+    position: relative;
+    left: 20%;
+}
+.your-message {
+    position: relative;
+    left: 20%;
+}
+button {
+    position: relative;
+    left: 35%;
 }
 
 .facebook-2 {
@@ -252,6 +273,7 @@ figcaption {
 .outer-footer {
     background: #F2F2F2;
     height: 150px;
+    padding: 50px;
 }
 
 .brand-2 {
