@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    outline: none;
 }
 
 body {
@@ -64,6 +65,9 @@ header {
 
 .hamburger {
     display: none;
+}
+h6 {
+    font-size: 58px;
 }
 
 h4 {
@@ -204,7 +208,9 @@ figcaption {
 .contact {
     background-image: url(../img/background4.jpg);
     height: 150px;
-    display: flex;
+    background-size: cover;
+    height: 150px;
+    padding-left: 5%;
 }
 
 .block-5-outer {
@@ -220,16 +226,8 @@ figcaption {
     width: 400px;
     position: relative;
     left: 35%;
-}
-
-.inner-footer {
-    background: #424242;
-    height: 150px;
-}
-
-.outer-footer {
-    background: #F2F2F2;
-    height: 230px;
+    justify-content: flex-start;
+    display: flex;
 }
 
 .facebook-2 {
@@ -246,11 +244,21 @@ figcaption {
     width: 40px;
 }
 
-.brand {
+.inner-footer {
+    background: #424242;
+    height: 100px;
+}
+
+.outer-footer {
+    background: #F2F2F2;
+    height: 150px;
+}
+
+.brand-2 {
     font-family: Impact, sans-serif;
     font-size: 40px;
     position: relative;
-    top: 40px;
+    top: 20px;
     left: 2%;
     border-color: #B40486;
     border-width: 1px;
@@ -261,17 +269,20 @@ figcaption {
 
 .about-2 {
     position: relative;
-    left: 30%;
+    left: 60%;
+    top: 20px;
 }
 
 .blog-2 {
     position: relative;
-    left: 35%;
+    left: 65%;
+    top: 20px;
 }
 
 .contact-2 {
     position: relative;
-    left: 40%;
+    left: 70%;
+    top: 20px;
 }
 
 .white-text {
